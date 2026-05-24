@@ -1,0 +1,267 @@
+2026-05-24 20:13:02 | INFO    | [bold]→ Step 1: Login[/bold]
+2026-05-24 20:13:13 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#username[/magenta] (purpose: username_input)
+2026-05-24 20:13:13 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#password[/magenta] (purpose: password_input)
+2026-05-24 20:13:13 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button[type='submit'][/magenta] (purpose: login_button)
+2026-05-24 20:13:18 | INFO    | OCR validation for 'logged into a secure area': ✗ missing
+2026-05-24 20:13:18 | INFO    | [red]✗ Login failed[/]
+2026-05-24 20:27:35 | INFO    | [bold]→ Step 1: Login[/bold]
+2026-05-24 20:27:47 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#username[/magenta] (purpose: username_input)
+2026-05-24 20:27:47 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#password[/magenta] (purpose: password_input)
+2026-05-24 20:27:47 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button[type='submit'][/magenta] (purpose: login_button)
+2026-05-24 20:27:50 | INFO    | OCR validation for 'logged into a secure area': ✗ missing
+2026-05-24 20:27:50 | INFO    | [red]✗ Login failed[/]
+2026-05-24 20:28:23 | INFO    | [bold]→ Step 1: Login[/bold]
+2026-05-24 20:28:32 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#username[/magenta] (purpose: username_input)
+2026-05-24 20:28:32 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#password[/magenta] (purpose: password_input)
+2026-05-24 20:28:32 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button[type='submit'][/magenta] (purpose: login_button)
+2026-05-24 20:28:34 | INFO    | OCR validation for 'logged into a secure area': ✗ missing
+2026-05-24 20:28:34 | INFO    | [red]✗ Login failed[/]
+2026-05-24 20:29:00 | INFO    | [bold]→ Step 1: Login[/bold]
+2026-05-24 20:29:16 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#user-name-field-v2[/magenta] (purpose: username_input)
+2026-05-24 20:29:24 | WARNING | [yellow]⚠ Selector failed:[/yellow] #user-name-field-v2
+2026-05-24 20:29:24 | INFO    | [yellow]🩹 Healing selector for: username_input[/yellow]
+2026-05-24 20:29:24 | ERROR   | [red]Healing failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4-20250514'}, 'request_id': 'req_011CbMbK8BdNjjmztSSuM6kd'}[/red]
+2026-05-24 20:33:57 | INFO    | [bold]→ Step 1: Login[/bold]
+2026-05-24 20:34:11 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#username[/magenta] (purpose: username_input)
+2026-05-24 20:34:12 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#password[/magenta] (purpose: password_input)
+2026-05-24 20:34:12 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button[type='submit'][/magenta] (purpose: login_button)
+2026-05-24 20:34:14 | INFO    | OCR validation for 'logged into a secure area': ✗ missing
+2026-05-24 20:34:14 | INFO    |   URL check: ✓ (https://the-internet.herokuapp.com/secure)
+2026-05-24 20:34:14 | INFO    |   OCR check: ✗
+2026-05-24 20:34:14 | INFO    | [green]✓ Login successful[/]
+2026-05-24 20:34:14 | INFO    | [bold]→ Step 2: Scrape invoice table[/bold]
+2026-05-24 20:34:15 | INFO    |   → Attempting [cyan]wait[/cyan] on [magenta]#table1[/magenta] (purpose: invoice_table)
+2026-05-24 20:34:15 | INFO    |   Found [cyan]4[/cyan] invoice rows.
+2026-05-24 20:34:15 | INFO    | [bold]→ Step 3: Download invoice sample[/bold]
+2026-05-24 20:34:17 | INFO    | [green]✓ Downloaded:[/green] test_upload_file.txt
+2026-05-24 20:34:30 | INFO    | [bold]→ Step 1: Login[/bold]
+2026-05-24 20:34:42 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#user-name-field-v2[/magenta] (purpose: username_input)
+2026-05-24 20:34:50 | WARNING | [yellow]⚠ Selector failed:[/yellow] #user-name-field-v2
+2026-05-24 20:34:50 | INFO    | [yellow]🩹 Healing selector for: username_input[/yellow]
+2026-05-24 20:34:53 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#username[/cyan]
+2026-05-24 20:34:53 | INFO    |   Reasoning: The username input field has a stable id='username' attribute, which is the most reliable selector for this element.
+2026-05-24 20:34:53 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 20:34:53 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#username[/magenta] (purpose: username_input)
+2026-05-24 20:34:53 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#pwd-input-new[/magenta] (purpose: password_input)
+2026-05-24 20:35:01 | WARNING | [yellow]⚠ Selector failed:[/yellow] #pwd-input-new
+2026-05-24 20:35:01 | INFO    | [yellow]🩹 Healing selector for: password_input[/yellow]
+2026-05-24 20:35:04 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#password[/cyan]
+2026-05-24 20:35:04 | INFO    |   Reasoning: The password input field has a stable id='password' attribute, not 'pwd-input-new' as in the failed selector.
+2026-05-24 20:35:04 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 20:35:04 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#password[/magenta] (purpose: password_input)
+2026-05-24 20:35:04 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button.login-submit-btn[/magenta] (purpose: login_button)
+2026-05-24 20:35:12 | WARNING | [yellow]⚠ Selector failed:[/yellow] button.login-submit-btn
+2026-05-24 20:35:12 | INFO    | [yellow]🩹 Healing selector for: login_button[/yellow]
+2026-05-24 20:35:14 | INFO    | [green]✓ Proposed selector:[/green] [cyan]button[type='submit']:has-text('Login')[/cyan]
+2026-05-24 20:35:14 | INFO    |   Reasoning: Targets the submit button by semantic type attribute and visible text content, both of which are stable identifiers that won't change with styling updates.
+2026-05-24 20:35:14 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 20:35:14 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button[type='submit']:has-text('Login')[/magenta] (purpose: login_button)
+2026-05-24 20:35:17 | INFO    | OCR validation for 'logged into a secure area': ✗ missing
+2026-05-24 20:35:17 | INFO    |   URL check: ✓ (https://the-internet.herokuapp.com/secure)
+2026-05-24 20:35:17 | INFO    |   OCR check: ✗
+2026-05-24 20:35:17 | INFO    | [green]✓ Login successful[/]
+2026-05-24 20:35:17 | INFO    | [bold]→ Step 2: Scrape invoice table[/bold]
+2026-05-24 20:35:18 | INFO    |   → Attempting [cyan]wait[/cyan] on [magenta].invoices-grid[/magenta] (purpose: invoice_table)
+2026-05-24 20:35:26 | WARNING | [yellow]⚠ Selector failed:[/yellow] .invoices-grid
+2026-05-24 20:35:26 | INFO    | [yellow]🩹 Healing selector for: invoice_table[/yellow]
+2026-05-24 20:35:29 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#table1[/cyan]
+2026-05-24 20:35:29 | INFO    |   Reasoning: The page has stable id attributes 'table1' and 'table2' for the invoice/data tables, no '.invoices-grid' class exists
+2026-05-24 20:35:29 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 20:35:29 | INFO    |   → Attempting [cyan]wait[/cyan] on [magenta]#table1[/magenta] (purpose: invoice_table)
+2026-05-24 20:35:29 | INFO    |   Found [cyan]0[/cyan] invoice rows.
+2026-05-24 20:35:29 | INFO    | [bold]→ Step 3: Download invoice sample[/bold]
+2026-05-24 20:35:30 | INFO    | [green]✓ Downloaded:[/green] test_upload_file.txt
+2026-05-24 20:44:29 | INFO    | [bold]→ Step 1: Login[/bold]
+2026-05-24 20:44:44 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#username[/magenta] (purpose: username_input)
+2026-05-24 20:44:44 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#password[/magenta] (purpose: password_input)
+2026-05-24 20:44:44 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button[type='submit'][/magenta] (purpose: login_button)
+2026-05-24 20:44:46 | INFO    | OCR validation for 'secure area': ✓ found
+2026-05-24 20:44:46 | INFO    |   URL check: ✓ (https://the-internet.herokuapp.com/secure)
+2026-05-24 20:44:46 | INFO    |   OCR check: ✓
+2026-05-24 20:44:46 | INFO    | [green]✓ Login successful[/]
+2026-05-24 20:44:46 | INFO    | [bold]→ Step 2: Scrape invoice table[/bold]
+2026-05-24 20:44:47 | INFO    |   → Attempting [cyan]wait[/cyan] on [magenta]#table1[/magenta] (purpose: invoice_table)
+2026-05-24 20:44:48 | INFO    |   Found [cyan]4[/cyan] invoice rows.
+2026-05-24 20:44:48 | INFO    | [bold]→ Step 3: Download invoice sample[/bold]
+2026-05-24 20:44:49 | INFO    | [green]✓ Downloaded:[/green] test_upload_file.txt
+2026-05-24 20:45:37 | INFO    | [bold]→ Step 1: Login[/bold]
+2026-05-24 20:45:42 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#user-name-field-v2[/magenta] (purpose: username_input)
+2026-05-24 20:45:50 | WARNING | [yellow]⚠ Selector failed:[/yellow] #user-name-field-v2
+2026-05-24 20:45:50 | INFO    | [yellow]🩹 Healing selector for: username_input[/yellow]
+2026-05-24 20:45:53 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#username[/cyan]
+2026-05-24 20:45:53 | INFO    |   Reasoning: The username input field has a stable id='username' attribute, which is the correct selector instead of the non-existent '#user-name-field-v2'
+2026-05-24 20:45:53 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 20:45:53 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#username[/magenta] (purpose: username_input)
+2026-05-24 20:45:53 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#pwd-input-new[/magenta] (purpose: password_input)
+2026-05-24 20:46:01 | WARNING | [yellow]⚠ Selector failed:[/yellow] #pwd-input-new
+2026-05-24 20:46:01 | INFO    | [yellow]🩹 Healing selector for: password_input[/yellow]
+2026-05-24 20:46:04 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#password[/cyan]
+2026-05-24 20:46:04 | INFO    |   Reasoning: The password input has a stable id='password' attribute, not 'pwd-input-new' as in the failed selector
+2026-05-24 20:46:04 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 20:46:04 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#password[/magenta] (purpose: password_input)
+2026-05-24 20:46:04 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button.login-submit-btn[/magenta] (purpose: login_button)
+2026-05-24 20:46:12 | WARNING | [yellow]⚠ Selector failed:[/yellow] button.login-submit-btn
+2026-05-24 20:46:12 | INFO    | [yellow]🩹 Healing selector for: login_button[/yellow]
+2026-05-24 20:46:15 | INFO    | [green]✓ Proposed selector:[/green] [cyan]button[type='submit']:has-text('Login')[/cyan]
+2026-05-24 20:46:15 | INFO    |   Reasoning: The button has stable type='submit' attribute and unique 'Login' text content, making it more reliable than a non-existent class.
+2026-05-24 20:46:15 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 20:46:15 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button[type='submit']:has-text('Login')[/magenta] (purpose: login_button)
+2026-05-24 20:46:17 | INFO    | OCR validation for 'secure area': ✓ found
+2026-05-24 20:46:17 | INFO    |   URL check: ✓ (https://the-internet.herokuapp.com/secure)
+2026-05-24 20:46:17 | INFO    |   OCR check: ✓
+2026-05-24 20:46:17 | INFO    | [green]✓ Login successful[/]
+2026-05-24 20:46:17 | INFO    | [bold]→ Step 2: Scrape invoice table[/bold]
+2026-05-24 20:46:18 | INFO    |   → Attempting [cyan]wait[/cyan] on [magenta].invoices-grid[/magenta] (purpose: invoice_table)
+2026-05-24 20:46:26 | WARNING | [yellow]⚠ Selector failed:[/yellow] .invoices-grid
+2026-05-24 20:46:26 | INFO    | [yellow]🩹 Healing selector for: invoice_table[/yellow]
+2026-05-24 20:46:30 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#table1[/cyan]
+2026-05-24 20:46:30 | INFO    |   Reasoning: The invoice table has a stable ID attribute 'table1' which is the most reliable selector for the first data table on the page.
+2026-05-24 20:46:30 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 20:46:30 | INFO    |   → Attempting [cyan]wait[/cyan] on [magenta]#table1[/magenta] (purpose: invoice_table)
+2026-05-24 20:46:30 | WARNING | [yellow]⚠ Row selector returned 0 results: .invoices-grid .row-item[/yellow]
+2026-05-24 20:46:30 | INFO    | [yellow]🩹 Healing row selector...[/yellow]
+2026-05-24 20:46:30 | INFO    | [yellow]🩹 Healing selector for: invoice_rows[/yellow]
+2026-05-24 20:46:33 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#table1 tbody tr, #table2 tbody tr[/cyan]
+2026-05-24 20:46:33 | INFO    |   Reasoning: The page uses table rows (tr) within tbody sections of tables with stable IDs #table1 and #table2, not invoice-grid/row-item classes which don't exist.
+2026-05-24 20:46:34 | INFO    |   Found [cyan]8[/cyan] invoice rows.
+2026-05-24 20:46:34 | INFO    | [bold]→ Step 3: Download invoice sample[/bold]
+2026-05-24 20:46:35 | INFO    | [green]✓ Downloaded:[/green] test_upload_file.txt
+2026-05-24 21:42:35 | INFO    | [bold]→ Step 1: Login[/bold]
+2026-05-24 21:42:39 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#user-name-field-v2[/magenta] (purpose: username_input)
+2026-05-24 21:42:47 | WARNING | [yellow]⚠ Selector failed:[/yellow] #user-name-field-v2
+2026-05-24 21:42:47 | INFO    | [yellow]🩹 Healing selector for: username_input[/yellow]
+2026-05-24 21:42:50 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#username[/cyan]
+2026-05-24 21:42:50 | INFO    |   Reasoning: The username input field has a stable id='username' attribute, which is the correct selector for this element.
+2026-05-24 21:42:50 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 21:42:50 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#username[/magenta] (purpose: username_input)
+2026-05-24 21:42:50 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#pwd-input-new[/magenta] (purpose: password_input)
+2026-05-24 21:42:58 | WARNING | [yellow]⚠ Selector failed:[/yellow] #pwd-input-new
+2026-05-24 21:42:58 | INFO    | [yellow]🩹 Healing selector for: password_input[/yellow]
+2026-05-24 21:43:01 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#password[/cyan]
+2026-05-24 21:43:01 | INFO    |   Reasoning: The password input has a stable id='password' attribute, not 'pwd-input-new' as in the failed selector
+2026-05-24 21:43:01 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 21:43:01 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#password[/magenta] (purpose: password_input)
+2026-05-24 21:43:01 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button.login-submit-btn[/magenta] (purpose: login_button)
+2026-05-24 21:43:09 | WARNING | [yellow]⚠ Selector failed:[/yellow] button.login-submit-btn
+2026-05-24 21:43:09 | INFO    | [yellow]🩹 Healing selector for: login_button[/yellow]
+2026-05-24 21:43:12 | INFO    | [green]✓ Proposed selector:[/green] [cyan]button[type='submit']:has-text('Login')[/cyan]
+2026-05-24 21:43:12 | INFO    |   Reasoning: Uses semantic button tag with stable type attribute and visible text content, avoiding the non-existent class from failed selector
+2026-05-24 21:43:12 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 21:43:12 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button[type='submit']:has-text('Login')[/magenta] (purpose: login_button)
+2026-05-24 21:43:15 | INFO    | OCR validation for 'secure area': ✓ found
+2026-05-24 21:43:15 | INFO    |   URL check: ✓ (https://the-internet.herokuapp.com/secure)
+2026-05-24 21:43:15 | INFO    |   OCR check: ✓
+2026-05-24 21:43:15 | INFO    | [green]✓ Login successful[/]
+2026-05-24 21:43:15 | INFO    | [bold]→ Step 2: Scrape invoice table[/bold]
+2026-05-24 21:43:15 | INFO    |   → Attempting [cyan]wait[/cyan] on [magenta].invoices-grid[/magenta] (purpose: invoice_table)
+2026-05-24 21:43:23 | WARNING | [yellow]⚠ Selector failed:[/yellow] .invoices-grid
+2026-05-24 21:43:23 | INFO    | [yellow]🩹 Healing selector for: invoice_table[/yellow]
+2026-05-24 21:43:26 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#table1[/cyan]
+2026-05-24 21:43:26 | INFO    |   Reasoning: The page has stable table IDs (#table1 and #table2) instead of the non-existent .invoices-grid class; #table1 is the primary data table on the page.
+2026-05-24 21:43:26 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 21:43:26 | INFO    |   → Attempting [cyan]wait[/cyan] on [magenta]#table1[/magenta] (purpose: invoice_table)
+2026-05-24 21:43:27 | WARNING | [yellow]⚠ Row selector returned 0 results: .invoices-grid .row-item[/yellow]
+2026-05-24 21:43:27 | INFO    | [yellow]🩹 Healing row selector...[/yellow]
+2026-05-24 21:43:27 | INFO    | [yellow]🩹 Healing selector for: invoice_rows[/yellow]
+2026-05-24 21:43:29 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#table1 tbody tr, #table2 tbody tr[/cyan]
+2026-05-24 21:43:29 | INFO    |   Reasoning: The page has data tables with tbody tr elements representing rows; no .invoices-grid or .row-item classes exist in the HTML.
+2026-05-24 21:43:30 | INFO    |   Found [cyan]8[/cyan] invoice rows.
+2026-05-24 21:43:30 | INFO    | [bold]→ Step 3: Download invoice sample[/bold]
+2026-05-24 21:43:31 | INFO    | [green]✓ Downloaded:[/green] test_upload_file.txt
+2026-05-24 21:45:45 | INFO    | [bold]→ Step 1: Login[/bold]
+2026-05-24 21:45:49 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#username[/magenta] (purpose: username_input)
+2026-05-24 21:45:49 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#password[/magenta] (purpose: password_input)
+2026-05-24 21:45:49 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button[type='submit'][/magenta] (purpose: login_button)
+2026-05-24 21:45:51 | INFO    | OCR validation for 'secure area': ✓ found
+2026-05-24 21:45:51 | INFO    |   URL check: ✓ (https://the-internet.herokuapp.com/secure)
+2026-05-24 21:45:51 | INFO    |   OCR check: ✓
+2026-05-24 21:45:51 | INFO    | [green]✓ Login successful[/]
+2026-05-24 21:45:51 | INFO    | [bold]→ Step 2: Scrape invoice table[/bold]
+2026-05-24 21:45:52 | INFO    |   → Attempting [cyan]wait[/cyan] on [magenta]#table1[/magenta] (purpose: invoice_table)
+2026-05-24 21:45:52 | INFO    |   Found [cyan]4[/cyan] invoice rows.
+2026-05-24 21:45:52 | INFO    | [bold]→ Step 3: Download invoice sample[/bold]
+2026-05-24 21:45:53 | INFO    | [green]✓ Downloaded:[/green] test_upload_file.txt
+2026-05-24 21:54:14 | INFO    | [bold]→ Step 1: Login[/bold]
+2026-05-24 21:54:18 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#user-name-field-v2[/magenta] (purpose: username_input)
+2026-05-24 21:54:26 | WARNING | [yellow]⚠ Selector failed:[/yellow] #user-name-field-v2
+2026-05-24 21:54:26 | INFO    | [yellow]🩹 Healing selector for: username_input[/yellow]
+2026-05-24 21:54:28 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#username[/cyan]
+2026-05-24 21:54:28 | INFO    |   Reasoning: The username input field has a stable id='username' attribute, which is the correct and most reliable selector for this element.
+2026-05-24 21:54:28 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 21:54:28 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#username[/magenta] (purpose: username_input)
+2026-05-24 21:54:28 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#pwd-input-new[/magenta] (purpose: password_input)
+2026-05-24 21:54:36 | WARNING | [yellow]⚠ Selector failed:[/yellow] #pwd-input-new
+2026-05-24 21:54:36 | INFO    | [yellow]🩹 Healing selector for: password_input[/yellow]
+2026-05-24 21:54:39 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#password[/cyan]
+2026-05-24 21:54:39 | INFO    |   Reasoning: The password input field has a stable id='password' attribute, not 'pwd-input-new' as in the failed selector.
+2026-05-24 21:54:39 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 21:54:39 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#password[/magenta] (purpose: password_input)
+2026-05-24 21:54:39 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button.login-submit-btn[/magenta] (purpose: login_button)
+2026-05-24 21:54:47 | WARNING | [yellow]⚠ Selector failed:[/yellow] button.login-submit-btn
+2026-05-24 21:54:47 | INFO    | [yellow]🩹 Healing selector for: login_button[/yellow]
+2026-05-24 21:54:50 | INFO    | [green]✓ Proposed selector:[/green] [cyan]button[type='submit']:has-text('Login')[/cyan]
+2026-05-24 21:54:50 | INFO    |   Reasoning: The login button has type='submit' and unique 'Login' text content within the form, making it stable and semantic.
+2026-05-24 21:54:50 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 21:54:50 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button[type='submit']:has-text('Login')[/magenta] (purpose: login_button)
+2026-05-24 21:54:52 | INFO    | OCR validation for 'secure area': ✓ found
+2026-05-24 21:54:52 | INFO    |   URL check: ✓ (https://the-internet.herokuapp.com/secure)
+2026-05-24 21:54:52 | INFO    |   OCR check: ✓
+2026-05-24 21:54:52 | INFO    | [green]✓ Login successful[/]
+2026-05-24 21:54:52 | INFO    | [bold]→ Step 2: Scrape invoice table[/bold]
+2026-05-24 21:54:53 | INFO    |   → Attempting [cyan]wait[/cyan] on [magenta].invoices-grid[/magenta] (purpose: invoice_table)
+2026-05-24 21:55:01 | WARNING | [yellow]⚠ Selector failed:[/yellow] .invoices-grid
+2026-05-24 21:55:01 | INFO    | [yellow]🩹 Healing selector for: invoice_table[/yellow]
+2026-05-24 21:55:04 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#table1[/cyan]
+2026-05-24 21:55:04 | INFO    |   Reasoning: The page has two tables with stable IDs (#table1 and #table2); #table1 is the first invoice/data table on the page
+2026-05-24 21:55:04 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 21:55:04 | INFO    |   → Attempting [cyan]wait[/cyan] on [magenta]#table1[/magenta] (purpose: invoice_table)
+2026-05-24 21:55:04 | WARNING | [yellow]⚠ Row selector returned 0 results: .invoices-grid .row-item[/yellow]
+2026-05-24 21:55:04 | INFO    | [yellow]🩹 Healing row selector...[/yellow]
+2026-05-24 21:55:04 | INFO    | [yellow]🩹 Healing selector for: invoice_rows[/yellow]
+2026-05-24 21:55:07 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#table1 tbody tr, #table2 tbody tr[/cyan]
+2026-05-24 21:55:07 | INFO    |   Reasoning: Targets all data rows in both tables using stable table IDs and semantic tbody structure, matching the invoice_rows purpose
+2026-05-24 21:55:08 | INFO    |   Found [cyan]8[/cyan] invoice rows.
+2026-05-24 21:55:08 | INFO    | [bold]→ Step 3: Download invoice sample[/bold]
+2026-05-24 21:55:09 | INFO    | [green]✓ Downloaded:[/green] test_upload_file.txt
+2026-05-24 21:58:20 | INFO    | [bold]→ Step 1: Login[/bold]
+2026-05-24 21:58:24 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#user-name-field-v2[/magenta] (purpose: username_input)
+2026-05-24 21:58:32 | WARNING | [yellow]⚠ Selector failed:[/yellow] #user-name-field-v2
+2026-05-24 21:58:32 | INFO    | [yellow]🩹 Healing selector for: username_input[/yellow]
+2026-05-24 21:58:35 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#username[/cyan]
+2026-05-24 21:58:35 | INFO    |   Reasoning: The username input field has a stable id='username' attribute which is the correct selector for this element.
+2026-05-24 21:58:35 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 21:58:35 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#username[/magenta] (purpose: username_input)
+2026-05-24 21:58:35 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#pwd-input-new[/magenta] (purpose: password_input)
+2026-05-24 21:58:43 | WARNING | [yellow]⚠ Selector failed:[/yellow] #pwd-input-new
+2026-05-24 21:58:43 | INFO    | [yellow]🩹 Healing selector for: password_input[/yellow]
+2026-05-24 21:58:45 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#password[/cyan]
+2026-05-24 21:58:45 | INFO    |   Reasoning: The password input has a stable id='password' attribute, not 'pwd-input-new' as in the failed selector.
+2026-05-24 21:58:45 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 21:58:45 | INFO    |   → Attempting [cyan]fill[/cyan] on [magenta]#password[/magenta] (purpose: password_input)
+2026-05-24 21:58:45 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button.login-submit-btn[/magenta] (purpose: login_button)
+2026-05-24 21:58:54 | WARNING | [yellow]⚠ Selector failed:[/yellow] button.login-submit-btn
+2026-05-24 21:58:54 | INFO    | [yellow]🩹 Healing selector for: login_button[/yellow]
+2026-05-24 21:58:57 | INFO    | [green]✓ Proposed selector:[/green] [cyan]button[type='submit']:has-text('Login')[/cyan]
+2026-05-24 21:58:57 | INFO    |   Reasoning: Uses semantic button type combined with visible text content, more stable than class-based selector that doesn't exist in the HTML
+2026-05-24 21:58:57 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 21:58:57 | INFO    |   → Attempting [cyan]click[/cyan] on [magenta]button[type='submit']:has-text('Login')[/magenta] (purpose: login_button)
+2026-05-24 21:58:59 | INFO    | OCR validation for 'secure area': ✓ found
+2026-05-24 21:58:59 | INFO    |   URL check: ✓ (https://the-internet.herokuapp.com/secure)
+2026-05-24 21:58:59 | INFO    |   OCR check: ✓
+2026-05-24 21:58:59 | INFO    | [green]✓ Login successful[/]
+2026-05-24 21:58:59 | INFO    | [bold]→ Step 2: Scrape invoice table[/bold]
+2026-05-24 21:59:00 | INFO    |   → Attempting [cyan]wait[/cyan] on [magenta].invoices-grid[/magenta] (purpose: invoice_table)
+2026-05-24 21:59:08 | WARNING | [yellow]⚠ Selector failed:[/yellow] .invoices-grid
+2026-05-24 21:59:08 | INFO    | [yellow]🩹 Healing selector for: invoice_table[/yellow]
+2026-05-24 21:59:11 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#table1[/cyan]
+2026-05-24 21:59:11 | INFO    |   Reasoning: The page has no `.invoices-grid` class; the actual invoice/data table uses stable `id="table1"` attribute
+2026-05-24 21:59:11 | INFO    | [green]🔄 Retrying with healed selector...[/green]
+2026-05-24 21:59:11 | INFO    |   → Attempting [cyan]wait[/cyan] on [magenta]#table1[/magenta] (purpose: invoice_table)
+2026-05-24 21:59:11 | WARNING | [yellow]⚠ Row selector returned 0 results: .invoices-grid .row-item[/yellow]
+2026-05-24 21:59:11 | INFO    | [yellow]🩹 Healing row selector...[/yellow]
+2026-05-24 21:59:11 | INFO    | [yellow]🩹 Healing selector for: invoice_rows[/yellow]
+2026-05-24 21:59:15 | INFO    | [green]✓ Proposed selector:[/green] [cyan]#table1 tbody tr, #table2 tbody tr[/cyan]
+2026-05-24 21:59:15 | INFO    |   Reasoning: The page has data tables with rows in tbody elements, not an 'invoices-grid' - selecting table rows by stable IDs and semantic structure
+2026-05-24 21:59:15 | INFO    |   Found [cyan]8[/cyan] invoice rows.
+2026-05-24 21:59:15 | INFO    | [bold]→ Step 3: Download invoice sample[/bold]
+2026-05-24 21:59:16 | INFO    | [green]✓ Downloaded:[/green] test_upload_file.txt
