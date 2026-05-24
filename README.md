@@ -102,7 +102,7 @@ python main.py
 
 The bot logs in, scrapes the invoice table, downloads a sample — all in ~10 seconds. Output:
 
-![Normal run](assets/normal.png)
+![Normal run](assests/normal.png)
 
 ### Self-Healing Demo 🩹
 
@@ -112,8 +112,8 @@ python main.py --simulate-breakage
 
 The config is swapped to use **intentionally wrong selectors**. Watch the bot fail, call Claude, get healed, and complete the run anyway:
 
-![Self-healing run](assets/heal1.png)
-![Self-healing run](assets/heal2.png)
+![Self-healing run](assests/heal1.png)
+![Self-healing run](assests/heal2.png)
 
 
 ### Dashboard
@@ -122,7 +122,7 @@ The config is swapped to use **intentionally wrong selectors**. Watch the bot fa
 streamlit run dashboard.py
 ```
 
-![Dashboard](assets/dashboard.png)
+![Dashboard](assests/dashboard.png)
 
 ---
 
