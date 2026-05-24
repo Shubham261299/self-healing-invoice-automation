@@ -92,7 +92,6 @@ The key insight: **the LLM only runs when something breaks.** Healthy paths cost
 
 ---
 
-## 🎬 Demo
 
 ### Normal Run
 
