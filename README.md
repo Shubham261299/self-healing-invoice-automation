@@ -1,3 +1,11 @@
+<div align="center">
+
+<img src=".github/banner.svg" width="100%" alt="Shubham AI Lab, system 05 of 07 (Open Source): Selector fails → Capture live DOM → Claude proposes fix → Retry → Recovered. Stack: Playwright, Claude API, Streamlit, Python.">
+
+[🌐 Portfolio](https://shubham-ai-lab.vercel.app/) · [👤 GitHub profile](https://github.com/Shubham261299) · [💼 LinkedIn](https://www.linkedin.com/in/shubham-jamdar-2571271b3)
+
+</div>
+
 # 🤖 Self-Healing Invoice Automation System
 
 > **Browser automation that fixes itself.** When portal selectors change overnight — a button gets renamed, a DOM gets restructured — this bot detects the failure, asks Claude to analyze the new DOM, and recovers in real time. Zero manual fixes.
