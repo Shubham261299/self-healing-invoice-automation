@@ -1,21 +1,30 @@
-<div align="center">
+<img src="docs/images/portfolio-cover.webp" width="100%" alt="Self-Healing Invoice Automation: conceptual project artwork matching the portfolio.">
 
-<img src=".github/banner.svg" width="100%" alt="Shubham AI Lab, system 05 of 07 (Open Source): Selector fails → Capture live DOM → Claude proposes fix → Retry → Recovered. Stack: Playwright, Claude API, Streamlit, Python.">
+# Self-Healing Invoice Automation
 
-[🌐 Portfolio](https://shubham-ai-lab.vercel.app/) · [👤 GitHub profile](https://github.com/Shubham261299) · [💼 LinkedIn](https://www.linkedin.com/in/shubham-jamdar-2571271b3)
+### The page changed. Can the automation recover?
 
-</div>
+A Playwright workflow that asks Claude for a replacement selector when a browser action fails, then retries and records the outcome.
 
-# 🤖 Self-Healing Invoice Automation System
+**Source available · Local demonstration on a public practice site. Healing requires an Anthropic API key; recovery is not guaranteed.**
 
-> **Browser automation that fixes itself.** When portal selectors change overnight — a button gets renamed, a DOM gets restructured — this bot detects the failure, asks Claude to analyze the new DOM, and recovers in real time. Zero manual fixes.
+**[Explore the case study ↗](https://shubham-ai-lab.vercel.app/work/self-healing)** · [Technical guide](#technical-guide) · [More projects](https://shubham-ai-lab.vercel.app/work)
 
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-1.45-2EAD33?logo=playwright)
-![Anthropic](https://img.shields.io/badge/Claude-Sonnet_4-D97757)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit)
+## See it in action
 
----
+![Existing project screenshot: Self-Healing Invoice Automation](assests/heal1.png)
+
+*Project screenshot from this repository. The cover above is a conceptual illustration.*
+
+## Engineering receipt
+
+| Decision | Why it matters |
+| --- | --- |
+| Call the model on failure | The normal browser path avoids a model call; selector recovery uses DOM context. |
+| Make recovery visible | Screenshots, logs and Excel records expose what happened. |
+| Keep the scope honest | The example uses simulated selector breakage, not a benchmark across production portals. |
+
+## Technical guide
 
 ## 💥 Why This Matters
 
@@ -25,16 +34,13 @@ This system uses an LLM as a **runtime selector resolver**: when a selector fail
 
 ---
 
-## 📊 Impact at a Glance
+## What the demo demonstrates
 
-| Metric | Traditional RPA | This System |
-|---|---|---|
-| **Recovery from selector change** | Manual fix (hours) | Automatic (~seconds) |
-| **Maintenance after portal update** | Re-map every selector | Zero touch in most cases |
-| **Failure surface** | Any DOM change = downtime | Only structural rewrites cause failure |
-| **Audit trail** | Often missing | Full Excel + log per run |
+- An intentionally broken selector triggers a recovery attempt.
+- The model proposes a selector from page context; Playwright retries the action.
+- Logs and screenshots expose the outcome.
 
----
+The repository does not establish a general recovery rate or guaranteed maintenance reduction across portals.
 
 ## 🏗️ Architecture
 
@@ -155,7 +161,7 @@ Verify: `tesseract --version`
 
 ```bash
 # Clone
-git clone https://github.com/YOUR-USERNAME/self-healing-invoice-automation.git
+git clone https://github.com/Shubham261299/self-healing-invoice-automation.git
 cd self-healing-invoice-automation
 
 # Virtual env
@@ -244,3 +250,4 @@ self-healing-invoice-automation/
 ---
 
 > ⭐ Found this useful? A star helps more than you'd think.
+
